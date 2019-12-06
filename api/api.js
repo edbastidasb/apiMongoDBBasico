@@ -31,7 +31,7 @@ mongoose.connect(`mongodb+srv://root:${password}@pruebaapp-bxg50.gcp.mongodb.net
     if (err) {
         console.log(err);
     }
-    console.log(mongoose);
+    
     console.log("Se conecto");
 });
 
