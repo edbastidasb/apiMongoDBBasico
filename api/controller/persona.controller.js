@@ -2,7 +2,7 @@ const Ciudad = require("./../model/ciudad.model");
 const Persona = require("./../model/persona.model");
 
 let index = (req, res) => {
-    Producto.find({})
+    Persona.find({})
     .populate("ciudad")
     .exec((err, data)=>{
         if(err)
